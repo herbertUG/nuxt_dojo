@@ -5,6 +5,9 @@
 </template>
 
 <script>
+definePageMeta({
+  layout:'products'
+})
 </script>
 
 <style scoped>
