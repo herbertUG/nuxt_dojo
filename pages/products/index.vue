@@ -15,7 +15,9 @@ definePageMeta({
 
 const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
-
+useHead({
+  title: 'Next Dojo | Merch'
+})
 
 </script>
 
